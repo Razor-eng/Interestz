@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Interestz - Bank FD and RD Calculator
 
-## Getting Started
+Interestz is a web application built with Next.js that helps users calculate Fixed Deposit (FD) and Recurring Deposit (RD) amounts for various banks and view their interest rates. The app features a user-friendly interface using **ShadCN** components and is styled with **Tailwind CSS** for a modern and responsive experience.
 
-First, run the development server:
+## Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+You can try out the app live at:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[Interestz Live Demo](https://interestz.vercel.app/)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **FD & RD Calculator**: Calculate potential returns on Fixed Deposits and Recurring Deposits based on principal amount, interest rate, and tenure.
+- **Interest Rates**: View the current interest rates offered by various banks for FD and RD products.
+- **Responsive Design**: Fully responsive design that works seamlessly on both desktop and mobile devices.
+- **Dark/Light Mode**: Built-in theme switcher with `next-themes` for dark and light mode support.
 
-## Learn More
+## Technologies Used
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js**: A React framework for building fast, server-rendered web applications.
+- **React**: A JavaScript library for building user interfaces.
+- **ShadCN**: A library of high-quality UI components built with Radix UI, enhanced and styled for modern apps.
+- **Tailwind CSS**: A utility-first CSS framework for designing custom UIs.
+- **TypeScript**: Type-safe programming language built on JavaScript.
+- **ESLint**: Linting tool to enforce coding standards and improve code quality.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Installation
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+To get started with the development environment, follow these steps:
 
-## Deploy on Vercel
+1. **Clone the repository**:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   git clone git@github.com:Razor-eng/Interestz.git
+   cd interestz
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. **Install dependencies**:
+
+   ```bash
+   npm install
+
+3. **Run the development server**:
+Once the dependencies are installed, run the development server using:
+
+   ```bash
+   npm run dev
+
+## Usage
+
+Once the app is running locally, you can:
+
+### 1. FD Calculator
+- Enter the **principal amount**, **tenure** (duration), and view the **maturity amount**.
+- The app will calculate and display the return based on the **interest rates** of the selected bank.
+
+### 2. RD Calculator
+- Enter the **monthly deposit amount**, **tenure** (duration), and the app will calculate and display the **total amount** accumulated at the end of the term.
+
+### 3. Interest Rates
+- View a list of current **interest rates** for Fixed Deposits (FD) and Recurring Deposits (RD) offered by various banks.
+
+
+## Acknowledgments
+
+- Thanks to the contributors of **ShadCN** for providing an accessible and customizable UI component library.
+- **Next.js** and **React** for their outstanding frameworks that make web development smoother and more efficient.
+- **Tailwind CSS** for offering a utility-first framework that allows fast and flexible UI styling.
+- **Vercel** for hosting the app and providing seamless deployment integration with Next.js.
+- The open-source community for supporting and contributing to these amazing technologies.
